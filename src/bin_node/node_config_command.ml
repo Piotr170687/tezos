@@ -26,6 +26,9 @@
 let () =
   Prevalidator_filters.register (module Tezos_mempool_006_PsCARTHA.Filter)
 
+let () =
+  Prevalidator_filters.register (module Tezos_mempool_007_Ps9VYaKW.Filter)
+
 (** Commands *)
 
 let show (args : Node_shared_arg.t) =
