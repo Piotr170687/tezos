@@ -65,6 +65,12 @@
             (select void_for_linking-006-PsCARTHA-mempool from
               (tezos-mempool-006-PsCARTHA -> void_for_linking)
               (-> void_for_linking))
+            (select void_for_linking-007-Ps9VYaKW from
+              (tezos-embedded-protocol-007-Ps9VYaKW -> void_for_linking)
+              (-> void_for_linking))
+            (select void_for_linking-007-Ps9VYaKW-mempool from
+              (tezos-mempool-007-Ps9VYaKW -> void_for_linking)
+              (-> void_for_linking))
             cmdliner
             tls)
  (flags (:standard -open Tezos_base__TzPervasives
